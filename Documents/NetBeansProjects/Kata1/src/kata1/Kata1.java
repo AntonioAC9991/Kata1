@@ -6,9 +6,8 @@ import java.time.Month;
 public class Kata1 {
     
     public static void main(String[] args) {
-        Person per = new Person("Antonio Aguado", LocalDate.of(1970, Month.MARCH, 30));
-        System.out.println(per.getName() + " " + per.getAge());
-
+        Person person = new Person("Luis Hernandez", LocalDate.of(1999, Month.MARCH, 30));
+        System.out.println(person.getName() + " " + person.getAge());
     }
     
 }
